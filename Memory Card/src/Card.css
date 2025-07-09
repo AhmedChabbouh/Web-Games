@@ -1,0 +1,33 @@
+.card{
+width: 280px;
+height: 350px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+background-color: #8ab661;
+
+margin: 10px;
+
+}
+.card:hover{
+transform: scale(1.05);
+transition: transform 0.3s ease;
+cursor: pointer;
+}
+.card-img-top{
+width: 265px;
+height: 265px;
+border-radius: 20px;
+padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+}
+.card-title{
+text-align: center;
+color: white;
+font-weight: bold;
+text-align: center;
+font-size: 23px;
+font-family: "Galada";
+padding-top: none;
+}

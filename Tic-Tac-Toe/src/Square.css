@@ -1,0 +1,30 @@
+.square{
+width:198px;
+height: 198px;
+border: 1px solid black;
+cursor: pointer;
+
+font-weight: bold;
+font-size : 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Red{
+color:brown;
+}
+.Blue{
+    color:rgb(10, 111, 161);
+}
+.top-left{
+    border-top-left-radius: 20px;
+}
+.bottom-left{
+    border-bottom-left-radius: 20px;
+}
+.top-right{
+    border-top-right-radius: 20px;
+}
+.bottom-right{
+    border-bottom-right-radius: 20px;
+}
